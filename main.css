@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+.auth {
+    width: 40%;
+    min-width: 320px;
+    max-width: 475px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.auth form {
+    display: block;
+    width: 100%;
+    padding: 2em;
+}
+
+.auth h2 {
+    color: #5d5d5d;
+    font-size: 1.35em;
+    background: #2a2a2a;
+    padding: 0.75em 1.5em 0.75em 1em;
+    border: 1px solid #1d1d1d;
+    margin: 0;
+}
+
+.auth input {
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 0.5em 0;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1.25em;
+}
+
+.auth .btn {
+    background: #3c4d6d;
+    padding: 0.5em 2em;
+    color: white;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #333;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.input-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.deposit-form {
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.deposit-form input,
+.deposit-form button {
+    margin-left: 10px;
+}
+
+.withdraw-form {
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.withdraw-form input,
+.withdraw-form button {
+    margin-left: 10px;
+}
+
+
+.checks-form {
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.checks-form input,
+.checks-form button {
+    margin-left: 10px;
+}
+
+.tranfers-form {
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tranfers-form input,
+.tranfers-form button {
+    margin-left: 10px;
+}
